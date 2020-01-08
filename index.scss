@@ -1,0 +1,66 @@
+@import "variable";
+
+/* Extend */
+%border-size{
+    border: 5px solid orange;
+}
+
+body{
+    font-family: $main-font, sans-serif;
+}
+.grid-container{
+    display: flex;
+    justify-content: center;
+}
+
+.grid-card{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 20px;
+    flex-direction: row;
+}
+
+input{
+    border-radius: 10px 0 0 10px;
+    padding: 10px;
+    border: 2px solid crimson;
+    margin-right: 10px;
+    width: 42%;
+}
+button{
+    background-color: $crimson-color;
+    border: none;
+    padding: 10px 30px;
+    color: $white;
+    font-weight: $bold;
+}
+
+h1{
+    color: $crimson-color;
+    text-align: center;
+}
+
+p{
+    font-size: $sm-font;
+}
+
+/* Nesting style and extends  */
+main {
+    margin-top: 20px;
+    width: 50%;
+    margin: 0 auto;
+    height: 500px;
+    @extend %border-size;
+    h1{
+        @extend %border-size;
+    }
+}
+
+.green-color{
+    color :$green;
+}
+.pink-color{
+    color: $pink;
+}

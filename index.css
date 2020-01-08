@@ -1,0 +1,76 @@
+/* Extend */
+main, main h1 {
+  border: 5px solid orange;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.grid-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.grid-card {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+input {
+  border-radius: 10px 0 0 10px;
+  padding: 10px;
+  border: 2px solid crimson;
+  margin-right: 10px;
+  width: 42%;
+}
+
+button {
+  background-color: crimson;
+  border: none;
+  padding: 10px 30px;
+  color: white;
+  font-weight: bold;
+}
+
+h1 {
+  color: crimson;
+  text-align: center;
+}
+
+p {
+  font-size: 1em;
+}
+
+/* Nesting style and extends  */
+main {
+  margin-top: 20px;
+  width: 50%;
+  margin: 0 auto;
+  height: 500px;
+}
+
+.green-color {
+  color: green;
+}
+
+.pink-color {
+  color: crimson;
+}
+/*# sourceMappingURL=index.css.map */
