@@ -86,4 +86,20 @@ i {
   color: white;
   padding: 10px;
 }
+
+.fa-times:hover:before {
+  content: "\f1f8";
+}
+
+.fa-plus:hover:before {
+  content: "\f055";
+}
+
+button:hover {
+  background-color: goldenrod;
+}
+
+button:hover i {
+  background-color: goldenrod;
+}
 /*# sourceMappingURL=index.css.map */
