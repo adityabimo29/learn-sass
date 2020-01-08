@@ -1,6 +1,6 @@
 /* Extend */
 main, main h1 {
-  border: 5px solid orange;
+  border: 5px solid crimson;
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 }
 
 .grid-card {
-  width: 90%;
+  width: 94%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -73,5 +73,15 @@ main {
 
 .pink-color {
   color: crimson;
+}
+
+.grid-card:hover {
+  background-color: darkgray;
+}
+
+i {
+  background-color: crimson;
+  color: white;
+  padding: 10px;
 }
 /*# sourceMappingURL=index.css.map */
