@@ -38,7 +38,8 @@ input {
   padding: 10px;
   border: 2px solid crimson;
   margin-right: 10px;
-  width: 42%;
+  width: 40%;
+  font-size: 1.5em;
 }
 
 button {
